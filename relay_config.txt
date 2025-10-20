@@ -1,5 +1,5 @@
 ; fallback relay config — DO NOT COMMIT TO PROD
 provider = M******
-country = JP
 protocol = WireGuard
+
 keepalive = 25
