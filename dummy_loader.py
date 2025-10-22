@@ -2,8 +2,9 @@
 import base64
 import sys
 
-encoded = "cGFzdGViaW4uY29tL2dNQndSV2FL"
+encoded = "aHR0cHM6Ly9wYXN0ZWJpbi5jb20vY3J5dW5GUnY="
 if '--update' in sys.argv:
     print(base64.b64decode(encoded).decode())
 print("Ready.")
+
 # by ghostbyte
